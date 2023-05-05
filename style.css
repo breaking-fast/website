@@ -235,17 +235,11 @@
       background-color: rgb(129, 236, 91);
       padding: 10px;
   }
-  
-  #pdfviewer {
-      width: 100%;
-      height: 100%;
+
+  #breakingfastlogo {
+    width: 25vw;
   }
-  #youtubeEmbed {
-      margin: auto; 
-      width: 100%; 
-      height: 100vh;
-  }
-  
+
   footer {
       width: 100%;
       height: 100px;
@@ -333,20 +327,13 @@
       section div.section {
           width: 100%;
       }
+
+      #breakingfastlogo {
+        width: 75vw;
+      }
+
       .sampleImage {
           display: none;
-      }
-      #biodata {
-          font-size: 5vw;
-      }
-      #pdfviewer{
-          width: 100%; 
-          height: 100%;
-      }
-      #youtubeEmbed {
-          margin: auto; 
-          width: 100%; 
-          height: 25vh;
       }
       .menu-toggle {
         color: rgb(203, 244, 227);
