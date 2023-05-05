@@ -153,12 +153,12 @@
   
   header nav ul li div:hover a,
   header nav ul li div.active a{
-    color:rgb(203, 244, 227);
+    color:rgb(15, 4, 74);
     transition: 0.6s;
   }
   
   header.sticky nav ul li div a {
-    color: rgb(236, 226, 100);
+    color: rgb(15, 4, 74);
   }
   
   header.sticky nav ul li div:hover,
@@ -262,7 +262,7 @@
           position: absolute;
           width: 100vw;
           height: calc(100vh - 120px);
-          background: rgb(88, 0, 255);
+          background: rgb(37, 122, 85);
           top: 120px;
           left: -100%;
           transition: 0.5s;
@@ -285,22 +285,22 @@
       }
   
       header nav ul li div a{
-          color: rgb(255, 198, 0);
+          color: rgb(236, 226, 100);
       }
   
       header nav ul li div:hover,
       header nav ul li div.active {
-          background-color: rgb(255, 198, 0);
+          background-color: rgb(129, 236, 91);
       }
   
       header nav ul li div:hover a,
       header nav ul li div.active a{
-          color: rgb(233, 0, 255);
+          color: rgb(15, 4, 74);
       }
   
       header.sticky nav {
           height: calc(100vh - 70px);
-          background: rgb(255, 198, 0);
+          background: rgb(37, 122, 85);
           top: 75px;
           left: -100%;
           transition: 0.5s;
@@ -312,22 +312,22 @@
   
       header.sticky nav ul li div,
       header.sticky nav ul li div {
-          background-color: rgb(88, 0, 255);
+          background-color:rgb(37, 122, 85);
       }
   
       header.sticky nav ul li div:hover,
       header.sticky nav ul li div.active {
-          background-color: rgb(233, 0, 255);
+          background-color: rgb(129, 236, 91);
       }
   
       header.sticky nav ul li div a, 
       header.sticky nav ul li div a {
-          color: rgb(255, 198, 0);
+          color: rgb(236, 226, 100);
       }
   
       header.sticky nav ul li div:hover a,
       header.sticky nav ul li div.active a {
-          color: rgb(255, 198, 0);
+          color: rgb(15, 4, 74);
       }
   
       section div.section {
@@ -347,5 +347,8 @@
           margin: auto; 
           width: 100%; 
           height: 25vh;
+      }
+      .menu-toggle {
+        color: rgb(203, 244, 227);
       }
   }
